@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+      <p>Social Media:</p>
+      <ul>
+        <li><a href="https://twitter.com/techcon2024" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com/techcon2024" target="_blank">Facebook</a></li>
+        <li><a href="https://linkedin.com/company/techcon2024" target="_blank">LinkedIn</a></li>
+      </ul>
+      <h2>Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.816178258715!2d36.82194631450347!3d-1.2920659990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17ec900013e9%3A0xa2f8a9e0a7c2e1f8!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1623456789!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section>
+      <h2>Contact Us Form</h2>
+      <form action="/contact" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright TechCon 2024 - © 2025 All rights reserved</p>
+  </footer>
+</body>
+</html>
